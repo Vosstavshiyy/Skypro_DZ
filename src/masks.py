@@ -22,6 +22,3 @@ def get_mask_account(arg: int) -> str:
     """
     mask = str(arg)
     return f"**{mask[-4::]}"
-
-def foo() -> None:
-    pass
