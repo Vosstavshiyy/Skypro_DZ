@@ -25,3 +25,6 @@ def get_mask_account(arg: int) -> str:
 
 def foo():
     pass
+
+def feature1():
+    pass
