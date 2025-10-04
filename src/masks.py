@@ -27,4 +27,4 @@ def foo():
     pass
 
 def feature1():
-    pass
+    ...
