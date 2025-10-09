@@ -12,10 +12,10 @@ test_data = [{'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.
 
 
 def main() -> None:
-    print(f"Маскировка карты: {mask_account_card('Visa Platinum 7000792289606361')} \nМаскировка счета: {mask_account_card('Счет 73654108430135874305')}")
-    print("Вывод даты:", get_date('2024-03-11T02:26:18.671407'))
-    print(f"Фильтрация по 'EXECUTED': {filter_by_state(test_data)} \nФильтрация по 'CANCELED': {filter_by_state(test_data, state='CANCELED')}")
-    print(f"Сортировка по дате (убывание): {sort_by_date(test_data)} \nСортировка по времени (восрастание): {sort_by_date(test_data, reverse=False)}")
+    print(f"Маскировка карты: {mask_account_card('Visa Platinum 7000792289606361')} \nМаскировка счета: {mask_account_card('Счет 73654108430135874305')}\n")
+    print(f"Вывод даты: {get_date('2024-03-11T02:26:18.671407')}\n")
+    print(f"Фильтрация по 'EXECUTED': {filter_by_state(test_data)} \nФильтрация по 'CANCELED': {filter_by_state(test_data, state='CANCELED')}\n")
+    print(f"Сортировка по дате (убывание): {sort_by_date(test_data)} \nСортировка по времени (восрастание): {sort_by_date(test_data, reverse=False)}\n")
 
 
 if __name__ == "__main__":
